@@ -1,0 +1,68 @@
+{
+    "operators": {
+        "+": "ADD",
+        "-": "SUBTRACT",
+        "*": "MULTIPLY",
+        "/": "DIVIDE",
+        "DIV": "FLOORDIVIDE",
+        "MOD": "MODULO",
+        ":=": "ASSIGN",
+        "=": "EQUALS",
+        ">": "GREATER_THAN",
+        "<": "LESS_THAN",
+        ">=": "EQUALGREATER_THAN",
+        "<=": "EQUALLESS_THAN",
+        "<>": "DIFFERENT_THAN",
+        "AND": "LOGIC_AND",
+        "OR": "LOGIC_OR",
+        "NOT": "LOGIC_NOT",
+        "(": "LEFT_PARENTHESIS",
+        ")": "RIGHT_PARENTHESIS",
+        "[": "LEFT_BRACKET",
+        "]": "RIGHT_BRACKET",
+        "%": "ADDRESS_OF",
+        "EOLN": "NEWLINE"
+    },
+    "delimiters": {
+        ";": "DELIMIT"
+    },
+    "static": {
+        "INTEGER": "INTEGER_TYPE",
+        "REAL": "FLOAT_TYPE",
+        "BOOLEAN": "BOOLEAN_TYPE",
+        "POINTER": "POINTER_TYPE",
+        "ARRAY": "ARRAY_TYPE",
+        "ΑΡΧΗ": "MAIN_BLOCK_START",
+        "ΤΕΛΟΣ": "MAIN_BLOCK_END",
+        "ΕΑΝ": "IF_BLOCK_START",
+        "ΤΟΤΕ": "IF_BLOCK_LOGIC_START",
+        "ΑΛΛΙΩΣ": "IF_BLOCK_ELSE",
+        "ΕΑΝ-ΤΕΛΟΣ": "IF_BLOCK_END",
+        "ΓΙΑ": "FOR_BLOCK_START",
+        "ΕΩΣ": "FOR_UP_TO",
+        "ΜΕ-ΒΗΜΑ": "INCREMENT_BY",
+        "ΓΙΑ-ΤΕΛΟΣ": "FOR_BLOCK_END",
+        "ΕΝΟΣΩ": "WHILE_BLOCK_START",
+        "ΤΕΛΟΣ-ΕΝΟΣΩ": "WHILE_BLOCK_END",
+        "ΜΕΧΡΙ": "DO_UNTIL_BLOCK_IDENTIFIER",
+        "ΕΠΑΝΑΛΑΒΕ": "LOOP_START",
+        "OF": "TYPE_OF"
+    },
+    "preprocessor": {
+        "TYPOI": "STRUCTS_DECLARATION",
+        "ΔΕΔΟΜΕΝΑ": "VARIABLES_DECLARATION",
+        "ΣΤΑΘΕΡΕΣ": "CONSTANTS_DECLARATION",
+        "ΔΙΕΠΑΦΗ": "FUNCTION_IO_DECLARATION",
+        "ΕΙΣΟΔΟΣ": "INPUT_PARAM_DECLARATION",
+        "ΕΞΟΔΟΣ": "OUTPUT_PARAM_DECLARATION",
+        "ΑΛΓΟΡΙΘΜΟΣ": "PROGRAM_DECLARATION",
+        ":": "DEFINE_AS",
+        "ΔΙΑΔΙΚΑΣΙΑ": "PROCEDURE_START",
+        "ΤΕΛΟΣ-ΔΙΑΔΙΚΑΣΙΑΣ": "PROCEDURE_END"
+    },
+    "builtins": {
+        "ΤΥΠΩΣΕ": "WRITE_STDOUT",
+        "ΔΙΑΒΑΣΕ": "READ_STDIN",
+        "ΥΠΟΛΟΓΙΣΕ": "CALL_FUNCTION"
+    }
+}
